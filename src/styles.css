@@ -1,4 +1,5 @@
 
+
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +7,14 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Press Start 2P', cursive;
     color: aliceblue;
 }
 
 .page {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 105vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -28,8 +29,8 @@ body {
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 105vh;
 }
 
 .page__content {
@@ -42,9 +43,18 @@ body {
 
 
 .page h1 {
-font-size: 2rem;
+font-size: 1rem;
 margin-bottom: 1rem;
+max-width: 800px;
+
 }
+
+.page h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    max-width: 800px;
+    
+    }
 
 .page h3 {
     font-weight: 300;
@@ -69,21 +79,24 @@ margin-bottom: 1rem;
   }
 
   .flip-clock {
-    font-family: "Orbitron";
+    font-family: 'Press Start 2P', cursive;
     font-weight: 700;
     margin-bottom: 2rem;
   }
 
   @media (min-width: 900px) {
     .page h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
+  }
+  .page h2 {
+    font-size: 2rem;
   }
   .page h3 {
     max-width: 600px;
   }
   .flip-clock {
     --fcc-digit-block-width: 80px; /* width of digit card */
-    --fcc-digit-block-height: 120px; /* height of digit card, highly recommend in even number */
+    --fcc-digit-block-height: 110px; /* height of digit card, highly recommend in even number */
     --fcc-digit-font-size: 60px; /* font size of digit */
     --fcc-digit-color: black; /* color of digit */
     --fcc-label-font-size: 20px; /* font size of label */
@@ -103,3 +116,10 @@ margin-bottom: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
+
+
+  .logo {
+    height: 200px;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }

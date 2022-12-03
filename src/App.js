@@ -3,7 +3,7 @@ import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 
 import "@leenguyen/react-flip-clock-countdown/dist/index.css"
 
-import VideoBg from "../src/assets/video.mp4"
+import VideoBg from "../src/assets/video3.mp4"
 
 import "./styles.css"
 

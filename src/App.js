@@ -26,7 +26,7 @@ const App = () => {
         labels={['DAYS', 'HOURS', 'MINUTES', 'SECONDS']}
         duration={0.5}
       />
-      <button className="btn"> <a href="https://twitter.com/coalunion">Get Ready</a>  </button>
+      <button className="btn"> <a  className='link-color' href="https://twitter.com/coalunion">Get Ready</a>  </button>
     </div>
     
     </section >;

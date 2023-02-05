@@ -3,20 +3,20 @@ import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 
 import "@leenguyen/react-flip-clock-countdown/dist/index.css"
 
-import VideoBg from "../src/assets/video3.mp4"
+import VideoBg from "../src/assets/video4.mp4"
 
 import "./styles.css"
 
 const App = () => {
   return <section className='page' >
-    <div className="overlay"></div>
+    <div className="overlay"></div>a
     <video src={VideoBg} autoPlay loop muted></video>
-    <div className="page__content">
+    <div className="page__content text-2xl">
       <h1>
         CoalUnion 
       </h1>
       <h2>Launching Soon!</h2>
-      <img class="logo" src="https://cdn.glitch.global/5e8af274-91e7-4fb5-97f4-c5839d809c90/logo-nobg-v1.0.png?v=1669643929046" alt="CoalUnion-logo"></img>
+      <img className="logo shadow-2xl" src="https://cdn.glitch.global/5e8af274-91e7-4fb5-97f4-c5839d809c90/logo-nobg-v1.0.png?v=1669643929046" alt="CoalUnion-logo"></img>
 
       {/* <h3>Learn More</h3> */}
 

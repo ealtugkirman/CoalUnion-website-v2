@@ -2,6 +2,7 @@ import React from 'react';
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 
 import "@leenguyen/react-flip-clock-countdown/dist/index.css"
+import Logo from './assets/CoalLogo.png'
 
 import VideoBg from "../src/assets/video4.mp4"
 
@@ -16,7 +17,7 @@ const App = () => {
         CoalUnion 
       </h1>
       <h2>Launching Soon!</h2>
-      <img className="logo shadow-2xl" src="https://cdn.glitch.global/5e8af274-91e7-4fb5-97f4-c5839d809c90/logo-nobg-v1.0.png?v=1669643929046" alt="CoalUnion-logo"></img>
+      <img className="logo shadow-2xl" src={Logo} alt="CoalUnion-logo"></img>
 
       {/* <h3>Learn More</h3> */}
 

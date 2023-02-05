@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: 'pirulen';
+  src: url('./assets/pirulen.ttf') format("truetype");
+}
+
 
 * {
     margin: 0;
@@ -49,7 +54,7 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: 'pirulen',
+    font-family: 'pirulen', Courier, monospace;
     
 }
 
@@ -91,7 +96,7 @@ margin-top: 80px;
   }
 
   .flip-clock {
-    font-family: 'Orbitron';
+    font-family: 'Orbitron', cursive;
     font-weight: 700;
     margin-bottom: 2rem;
   }
@@ -141,5 +146,5 @@ margin-top: 80px;
   .logo {
     height: 200px;
     margin-bottom: 7%;
-    margin-top: 7%;
+    margin-top: 6%;
   }

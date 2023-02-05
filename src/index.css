@@ -6,5 +6,5 @@
 
 @font-face {
     font-family: 'pirulen';
-    src: local('pirulen'), url('../public/pirulen.ttf') format('ttf');
+    src: local('pirulen'), url('../src/assets/pirulen.ttf');
   }
